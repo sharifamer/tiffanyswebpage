@@ -1,7 +1,22 @@
 <html>
 	<title> Tiffany Vargas </title>
 		<link type="text/css" rel="stylesheet" href="homepage.css"
+			<body>
 			<div class= "header">
+				<p> Welcome to Tiffanys portfolio </p>
+				<style>
+				<a href="#" onclick="next();return false;"><img src="next.png"/></a>
+					script>
+							var myImage= new Array(); 
+								myImage[0]="tiff1.jpg";       
+								myImage[1]="tiff2.jpg";
+								myImage[2]="art1.jpg";
+								myImage[3]="tiff3.jpg"; 
+								function next(){
+    ImageCnt++;
+    document.getElementById("whiteBox").style.background = 'url(' + myImage[ImageCnt] + ')';
+  }
+</script>
 
 
 
@@ -17,8 +32,5 @@
 
 
 
-
-
-
-
+</body>
 </html>
