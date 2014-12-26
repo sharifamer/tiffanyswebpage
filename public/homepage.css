@@ -12,3 +12,39 @@ body {
   url("fonts/prestige.svg#PrestigeEliteNormal") format("svg");
   font-weight:normal;font-style:normal;
   }
+
+	table {
+		border-collapse: separate;
+		border-spacing: 1.6vw;
+		border-color: gray;
+	}
+
+	td, th {
+		display: table-cell;
+		vertical-align: inherit;
+	}
+
+	.projects {
+		width: 27.9vw;
+		height: 32vw;
+
+	}
+
+	.projects:hover .projectsoverlay{
+		transition: 0.4s;
+		opacity: 1;
+	}
+
+	.projectsoverlay {
+		opacity: 0;
+		background: rgba(0, 0, 0, .75);
+		position: absolute;
+		width: 27.9vw;
+		height: 28vw;
+
+
+	}
+
+	.projtitle{
+		line-height:0%;
+	}
