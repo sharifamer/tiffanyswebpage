@@ -48,3 +48,6 @@ body {
 	.projtitle{
 		line-height:0%;
 	}
+ .footer {
+ 	display: block;
+ }
