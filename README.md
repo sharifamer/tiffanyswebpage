@@ -1,4 +1,4 @@
-Tiffany-s-Webpage-
+Tiffanys Website
 ==================
 
 A quick, simple, webpage for our friend Tiffany.
