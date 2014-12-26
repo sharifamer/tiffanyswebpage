@@ -4,7 +4,7 @@ Tiffanys Website
 A quick, simple, webpage for our friend Tiffany.
 How to Use Git
 ================================================
- 1. git Pull
+1. git Pull
 ================================================
 2. git checkout -b (issue #)
 ================================================
